@@ -21,3 +21,8 @@
    2. chmod [xyz] file
    其中，x，y，z分别表示数字（最大不超过7），并分别对应User、Group、Other
    x，y，z的值由r（r=4），w ( w=2 )，x ( x=1 )来确定
+
+
+## 安装包操作
+1.要检查特定的包，比如firefox是否安装了，使用这个命令：<br/>
+   dpkg -s firefox
