@@ -10,3 +10,8 @@
 
 # Vim 的基本操作
 1. 进入vi之后，是处于「命令行模式（command mode）,`在「命令行模式（command mode）」下按一下字母「i」`就可以进入「插入模式（Insert mode）」
+1. 处于「插入模式（Insert mode）」，您就只能一直输入文字，如果您发现输错了字！`想用光标键往回移动，将该字删除，就要先按一下「ESC」键转到「命令行模式（command mode）」再删除文字。`
+1. 在「命令行模式（command mode）」下，按一下「：」冒号键进入「Last line mode」，例如：
+   1.  : w filename （输入 「w filename」将文章以指定的文件名filename保存）
+   1.  : wq (输入「wq」，存盘并退出vi)
+   1.  : q! (输入q!， 不存盘强制退出vi)
