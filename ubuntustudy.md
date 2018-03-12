@@ -20,7 +20,8 @@
    * x表示运行文件
    2. chmod [xyz] file
    其中，x，y，z分别表示数字（最大不超过7），并分别对应User、Group、Other
-   x，y，z的值由r（r=4），w ( w=2 )，x ( x=1 )来确定
+   x，y，z的值由r（r=4），w ( w=2 )，x ( x=1 )来确定<br/>
+   chmod 755 /home/gitadmin/respoitories :表示User(4+2+1) 拥有读、写、运行权限,Group(4+1)拥有读、运行权限,Other(4+1)拥有读、运行权限
 1. mkdir -p<br/>
    * 参数P代表parents，表示递归创建目录。
    * 如果用-p 可以直接创建2个目录 mkdir -p 目录A/子目录B就可以。
