@@ -3,8 +3,7 @@
 ## 文件操作
 1. mkdir-p:no error if existing, make parent directories as needed
 1. chown jim program.c<br/>文件 program.c 的所有者更改为 jim。作为所有者，jim 可以使用 chmod 命令允许或拒绝其他用户访问 program.c。
-1. chown -R john:build /tmp/src更改目录的所有者：将目录 /tmp/src 中所有文件的所有者和组更改为用户 john 和组 build<br/>
-   - R 递归式地改变指定目录及其下的所有子目录和文件的拥有者。
+1. chown -R john:build /tmp/src更改目录的所有者：将目录 /tmp/src 中所有文件的所有者和组更改为用户 john 和组 build<br/>- R 递归式地改变指定目录及其下的所有子目录和文件的拥有者。
 1. chmod 命令可以用来修改文件或文件夹的读写权限 <br/>
    1. chmod [ u / g / o / a ] [ + / - / = ] [ r / w / x ] file<br/>
    ---------------------------------
