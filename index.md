@@ -5,7 +5,8 @@ You can use the [editor on GitHub](https://github.com/rotchild/rotchild.github.i
 [to MySQL Study](./DATABASE_MySQL.md)
 [to gitStudy](./gitstudy.md)
 [gitserver点这里](./gitserver.md)<br/>
-.[ubuntustudy点这里](./ubuntustudy.md)
+[ubuntustudy点这里](./ubuntustudy.md)<br/>
+[vim点这里](./vim.md)<br/>
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
