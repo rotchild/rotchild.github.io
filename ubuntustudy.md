@@ -48,7 +48,14 @@
   -v, --verbose     显示删除结果<br/>
 1. ls -l filename<br/>
    查看文件操作权限
-
+1. cat主要有三大功能：
+   1. 一次显示整个文件。
+$ cat   filename
+   1. 从键盘创建一个文件。
+$ cat  >  filename
+只能创建新文件,不能编辑已有文件.
+   1. 将几个文件合并为一个文件。
+$cat   file1   file2  > file
 ## 安装包操作
 1. 要检查特定的包，比如firefox是否安装了，使用这个命令：
   ```
