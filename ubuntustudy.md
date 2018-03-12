@@ -37,27 +37,31 @@
 
 
 ## 安装包操作
-1. 要检查特定的包，比如firefox是否安装了，使用这个命令：<br/>
+1. 要检查特定的包，比如firefox是否安装了，使用这个命令：
   ```
   dpkg -s firefox
   ```
-1. 卸载指定软件<br/>
+1. 卸载指定软件
   ```
-  sudo apt-get remove softname<br/>
+  sudo apt-get remove softname
   ```
   彻底卸载<br/>
-  * 删除软件及其配置文件<br/>
+   * 删除软件及其配置文件
   ```
   apt-get --purge remove <package>
   ```
-  * 删除没用的依赖包<br/>
+   * 删除没用的依赖包
   ```
   apt-get autoremove <package>
   ```
-  * 此时dpkg的列表中有“rc”状态的软件包，可以执行如下命令做最后清理<br/>
+   * 此时dpkg的列表中有“rc”状态的软件包，可以执行如下命令做最后清理
   ```
   dpkg -l |grep ^rc|awk '{print $2}' |sudo xargs dpkg -P
   ```
+1. 安装指定软件
+```
+sudo apt-get install <package>
+```
 ## 目录相关
 1. pwd<br/>
    pwd 命令能让你知道你目前工作的目录是哪个目录
