@@ -86,3 +86,21 @@ ps -ef|grep <package>如果有内容说明活着
 ## 目录相关
 1. pwd<br/>
    pwd 命令能让你知道你目前工作的目录是哪个目录
+   
+## 账户相关
+1.切换账户:<br/>
+  切换用户的命令为：su username<br/>
+  在切换用户时，如果想在切换用户之后使用新用户的工作环境，可以在su和username之间加- :su -username<br/>
+  从普通用户切换到root用户，还可以使用命令：sudo su<br/>
+  在终端输入exit或logout或使用快捷方式ctrl+d，可以退回到原来用户，其实ctrl+d也是执行的exit命令<br/>
+  
+## 服务相关
+1. 开启服务：<br/>
+service <servicename> start
+1. 重启服务：<br/>
+service <servicename> restart
+1. 查看某个服务的状态:<br/>
+service <servicename> status
+1. 停止某个服务:<br/>
+service <servicename> stop
+
