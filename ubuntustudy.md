@@ -48,7 +48,7 @@
   -v, --verbose     显示删除结果<br/>
 1. ls -l filename<br/>
    查看文件操作权限
-1. cat主要有三大功能：
+1. cat主要有三大功能:[参考点这里](http://blog.csdn.net/jackalfly/article/details/7556848)
    1. 一次显示整个文件。
 $ cat   filename
    1. 从键盘创建一个文件。
