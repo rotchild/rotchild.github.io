@@ -41,6 +41,10 @@
   ```
   dpkg -s firefox
   ```
+  或<br/>
+  ```
+  dpkg-query -l <package>
+  ```
 1. 卸载指定软件
   ```
   sudo apt-get remove softname
@@ -61,6 +65,10 @@
 1. 安装指定软件
 ```
 sudo apt-get install <package>
+```
+1. 查看软件是否在运行
+```
+ps -ef|grep <package>如果有内容说明活着
 ```
 ## 目录相关
 1. pwd<br/>
