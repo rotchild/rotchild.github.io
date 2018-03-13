@@ -93,8 +93,9 @@ sudo apt-get install <package>
 ```
 1. 查看软件是否在运行
 ```
-ps -ef|grep <package>如果有内容说明活着[详情点这里](https://www.cnblogs.com/wxgblogs/p/6591980.html)
+ps -ef|grep <package>如果有内容说明活着 
 ```
+[ps点这里].(https://www.cnblogs.com/wxgblogs/p/6591980.html)
 ## 目录相关
 1. pwd<br/>
    pwd 命令能让你知道你目前工作的目录是哪个目录
