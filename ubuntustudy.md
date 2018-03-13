@@ -117,3 +117,6 @@ service <servicename> status
 1. 停止某个服务:<br/>
 service <servicename> stop
 
+# sftp使用
+sftp user@host
+[sftp详情](http://blog.csdn.net/stpeace/article/details/39404449)
