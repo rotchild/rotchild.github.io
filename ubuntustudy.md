@@ -58,6 +58,9 @@ $ cat  >  filename
 $cat   file1   file2  > file
 1. touch a.txt
 创建文件
+1. mv 移动文件，修改文件名
+mv 源文件 目标文件 例如mv a.txt b.txt 是在将当前目录下的a.txt文件名字改为b.txt<br/>
+mv 源文件 目录,例如mv a.txt /home 是将a.txt文件移动到/home目录下
 ## 安装包操作
 1. 要检查特定的包，比如firefox是否安装了，使用这个命令：
   ```
