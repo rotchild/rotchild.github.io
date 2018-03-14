@@ -80,6 +80,8 @@ tar zxvf zhcon-0.2.5.tar.gz
 x : 从 tar 包中把文件提取出来<br/>
 z : 表示 tar 包是被 gzip 压缩过的，所以解压时需要用 gunzip 解压<br/>
 v : 显示详细信息<br/>
+f xxx.tar.gz :  指定被处理的文件是 xxx.tar.gz
+
 ## 安装包操作
 1. 要检查特定的包，比如firefox是否安装了，使用这个命令：
   ```
