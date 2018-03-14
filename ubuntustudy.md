@@ -128,6 +128,15 @@ ps -ef|grep <package>如果有内容说明活着
   在切换用户时，如果想在切换用户之后使用新用户的工作环境，可以在su和username之间加- :su -username<br/>
   从普通用户切换到root用户，还可以使用命令：sudo su<br/>
   在终端输入exit或logout或使用快捷方式ctrl+d，可以退回到原来用户，其实ctrl+d也是执行的exit命令<br/>
+  
+1.从普通用户到root
+  ```
+  sudo -i
+  ```
+  从root到普通
+  ```
+  exit
+  ```
   
 ## 服务相关
 1. 开启服务：<br/>
