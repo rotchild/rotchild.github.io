@@ -114,9 +114,10 @@ sudo apt-get install <package>
 ```
 1. 查看软件是否在运行
 ```
-ps -ef|grep <package>如果有内容说明活着 
+ps -ef|grep <package>如果有内容说明活着
 ```
-[ps点这里](https://www.cnblogs.com/wxgblogs/p/6591980.html)
+[ps点这里](https://www.cnblogs.com/wxgblogs/p/6591980.html)<br/>
+1. 
 ## 目录相关
 1. pwd<br/>
    pwd 命令能让你知道你目前工作的目录是哪个目录
@@ -146,3 +147,6 @@ sftp user@host
 curl<br/>
 curl命令是个功能强大的网络工具，支持通过http、ftp等方式下载文件、上传文件。还可以用来抓取网页、网络监控等方面的开发，解决开发过程中遇到的问题。
 [详情点这里](https://www.cnblogs.com/linjiqin/p/5484910.html)
+
+# 脚本sh
+直接./加上文件名.sh，如运行hello.sh为./hello.sh**hello.sh必须有x权限**
