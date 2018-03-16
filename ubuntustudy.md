@@ -137,6 +137,22 @@ ps -ef|grep <package>如果有内容说明活着
   ```
   exit
   ```
+  
+1.添加账户
+``
+adduser user1(需要root权限)
+``
+1.给予账户root权限
+``
+root@ubuntu:~# sudo vim /etc/sudoers
+``
+修改文件如下：<br/>
+``
+# User privilege specification
+root ALL=(ALL) ALL
+linuxidc ALL=(ALL) ALL
+``
+保存退出，linuxidc用户就拥有了root权限。
   
 ## 服务相关
 1. 开启服务：<br/>
