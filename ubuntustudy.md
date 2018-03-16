@@ -153,6 +153,8 @@ root ALL=(ALL) ALL
 linuxidc ALL=(ALL) ALL
 ``
 保存退出，linuxidc用户就拥有了root权限。
+1. 修改密码
+在命令行中输入 passwd  用户名，比如用户名叫joe，那就输入  passwd joe，然后按回车键
   
 ## 服务相关
 1. 开启服务：<br/>
