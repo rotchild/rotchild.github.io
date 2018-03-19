@@ -1,6 +1,17 @@
 # docker学习
 [参考资料](http://imcjy.com/)<br/>
-1.  ## 安装
+1. ## 安装
+1. ## 使用阿里云docker镜像加速
+``
+sudo mkdir -p /etc/docker<br/>
+sudo tee /etc/docker/daemon.json <<-'EOF'<br/>
+{<br/>
+  "registry-mirrors": ["https://******.mirror.aliyuncs.com"]<br/>
+}<br/>
+EOF<br/>
+sudo systemctl daemon-reload<br/>
+sudo systemctl restart docker<br/>
+``
 1. ## 拉取镜像
 ``
 docker pull mysql
