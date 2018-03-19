@@ -3,14 +3,14 @@
 1. ## 安装
 1. ## 使用阿里云docker镜像加速
 ``
-sudo mkdir -p /etc/docker<br/>
-sudo tee /etc/docker/daemon.json <<-'EOF'<br/>
-{<br/>
-  "registry-mirrors": ["https://******.mirror.aliyuncs.com"]<br/>
-}<br/>
-EOF<br/>
-sudo systemctl daemon-reload<br/>
-sudo systemctl restart docker<br/>
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+  "registry-mirrors": ["https://******.mirror.aliyuncs.com"]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
 ``
 1. ## 拉取镜像
 ``
