@@ -26,7 +26,14 @@ sudo docker run --name first-mysql -p 3306:3306 -e MYSQL\_ROOT\_PASSWORD=123456 
 sudo docker run --name first-mysql -p 3307:3306 -e MYSQL\_ROOT\_PASSWORD=123456 -d mysql
 ``
 
-1. 停止容器
+1. ## 停止容器
 ``
 docker stop 容器id
+``
+
+1. ## 进入docker容器的方法
+[参考资料](https://www.cnblogs.com/xhyan/p/6593075.html)
+* 使用docker exec进入Docker容器
+``
+sudo docker exec -it 775c7c9ee1e1 /bin/bash 
 ``
