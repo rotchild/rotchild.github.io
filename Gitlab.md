@@ -34,7 +34,7 @@ sudo docker run --detach \
      修改gitlab下host值为实际的域名或服务器IP地址即可，保存退出<br/>
      注意**使用docker重启容器无效,需要在容器中重启**<br/>
      ``
-     gitlab-ctl restart
+     gitlab-ctl restart<br/>
      ``
      1.  push权限问题<br/>
     master 默认为proceted branch,权限级别为master,需要在Settings中的Repository中修改权限级别
