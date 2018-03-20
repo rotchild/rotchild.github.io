@@ -36,5 +36,5 @@ sudo docker run --detach \
      ``
      gitlab-ctl restart<br/>
      ``
-     1.  push权限问题<br/>
-    master 默认为proceted branch,权限级别为master,需要在Settings中的Repository中修改权限级别
+     1.  push权限问题
+      master 默认为proceted branch,权限级别为master,需要在Settings中的Repository中修改权限级别
