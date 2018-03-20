@@ -5,3 +5,28 @@
  * git config --global user.name "Your Name"
  * git config --global user.email "email@example.com"
 ``
+
+## 1. clone远程库
+``
+git clone url
+``
+
+## 1. 添加文件
+``
+git add .
+``
+
+## 1. 查看状态
+``
+git status
+``
+
+## 1. 提交到本地仓库
+``
+git commit -m 备注 
+``
+
+## 1. 提交到远程仓库
+``
+git push origin 分支名称
+``
