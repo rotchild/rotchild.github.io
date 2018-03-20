@@ -24,4 +24,16 @@ sudo docker run --detach \
 * --volume: 共享目录挂载，即 docker 容器内外数据共享（/srv/gitlab/data: 应用程序数据，/srv/gitlab/logs：GitLab 的 log，/srv/gitlab/config：GitLab 的配置文件）
 * --e：配置 Gitlab 运行的环境变量
 
-## 1. 
+## 1. 注意事项
+   * 项目的ip地址修改：
+     进入到gitlab容器之后<br/>
+     ``
+      * cd /opt/gitlab/embedded/service/gitlab-rails/config
+      * vim gitlab.yml  
+     ``
+     修改gitlab下host值为实际的域名或服务器IP地址即可，保存退出<br/>
+     注意**使用docker重启容器无效,需要在容器中重启**<br/>
+     ``
+     gitlab-ctl restart
+     ``
+     
