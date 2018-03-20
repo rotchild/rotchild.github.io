@@ -23,3 +23,5 @@ sudo docker run --detach \
 * --restart always：每次启动容器就重启GitLab
 * --volume: 共享目录挂载，即 docker 容器内外数据共享（/srv/gitlab/data: 应用程序数据，/srv/gitlab/logs：GitLab 的 log，/srv/gitlab/config：GitLab 的配置文件）
 * --e：配置 Gitlab 运行的环境变量
+
+## 1. 
