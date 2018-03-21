@@ -1,4 +1,5 @@
 # 使用docker安装gitlab
+[docker配置参考资料](http://imcjy.com/)
  * ## 拉取镜像
 ``
 docker pull gitlab/gitlab-ce
