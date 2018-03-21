@@ -46,6 +46,7 @@
   -r, -R                递归删除子目录**删除文件夹时使用**<br/>
   -d, --dir             删除空目录<br/>
   -v, --verbose     显示删除结果<br/>
+  -rf                删除文件夹
 1. ls -l filename<br/>
    查看文件操作权限
 1. cat主要有三大功能:[参考点这里](http://blog.csdn.net/jackalfly/article/details/7556848)
