@@ -6,7 +6,7 @@
  * git config --global user.email "email@example.com"
 ``
 
-## 1. clone远程库
+ 1. ## clone远程库
 ``
 git clone url
 ``
