@@ -3,8 +3,8 @@
  * ## git用户配置<br/>
 
 ``
-  * git config --global user.name "Your Name"
-  * git config --global user.email "email@example.com"
+  git config --global user.name "Your Name"<br/>
+  git config --global user.email "email@example.com"
 ``
 
  * clone远程库<br/>
