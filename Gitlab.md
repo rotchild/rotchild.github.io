@@ -1,9 +1,9 @@
 # 使用docker安装gitlab
- ##  1. 拉取镜像
+ * ## 拉取镜像
 ``
 docker pull gitlab/gitlab-ce
 ``
-## 1. 创建并运行gitlab容器
+* ## 创建并运行gitlab容器
 ``
 sudo docker run --detach \
     --hostname 40.125.206.47 \
@@ -24,7 +24,7 @@ sudo docker run --detach \
 * --volume: 共享目录挂载，即 docker 容器内外数据共享（/srv/gitlab/data: 应用程序数据，/srv/gitlab/logs：GitLab 的 log，/srv/gitlab/config：GitLab 的配置文件）
 * --e：配置 Gitlab 运行的环境变量
 
-## 1. 注意事项
+* ## 注意事项
       1.  项目的ip地址修改：<br/>
      进入到gitlab容器之后<br/>
      ``
