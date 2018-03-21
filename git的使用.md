@@ -7,27 +7,27 @@
  * git config --global user.email "email@example.com"
 ``
 
- * ## clone远程库
+ * clone远程库
 ``
 git clone url
 ``
 
- * ## 添加文件
+ * 添加文件
 ``
 git add .
 ``
 
- * ## 查看状态
+ * 查看状态
 ``
 git status
 ``
 
- * ## 提交到本地仓库
+ * 提交到本地仓库
 ``
 git commit -m 备注 
 ``
 
-* ## 提交到远程仓库
+* 提交到远程仓库
 ``
 git push origin 分支名称
 ``
