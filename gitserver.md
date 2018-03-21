@@ -20,9 +20,10 @@ StrictModes no --在用户名和其公钥不匹配的时候通过认证
 RSAAuthentication yes --使用纯的RSA验证
 PubkeyAuthentication yes --允许Public key AuthorizedKeysFile %h/.ssh/authorized_keys
 上面这个配置是设定免密码登录的账号公钥存储路径
+``
 
-PC 端 安装git
-在 git.bash下
+* PC 端 安装git
+ 在 git.bash下
+``
 ssh-keygen -t rsa 生成本机密钥,公钥默认在~/.ssh/id_rsa.pub
-
 ``
