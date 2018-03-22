@@ -37,7 +37,7 @@ sudo docker run --detach \
      
      修改gitlab下host值为实际的域名或服务器IP地址即可，保存退出<br/>
      
-1.  500错误:重启解决**使用docker重启容器无效,需要在容器中重启**
+1.  502错误:重启解决**使用docker重启容器无效,需要在容器中重启**
      ``
      gitlab-ctl restart<br/>
      ``
