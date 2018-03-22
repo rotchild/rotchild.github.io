@@ -28,7 +28,7 @@ sudo docker run --detach \
 * --e：配置 Gitlab 运行的环境变量
 
 * ## 注意事项
-      1.  项目的ip地址修改：<br/>
+      * 项目的ip地址修改：<br/>
      进入到gitlab容器之后<br/>
      ``
       * cd /opt/gitlab/embedded/service/gitlab-rails/config
@@ -36,9 +36,9 @@ sudo docker run --detach \
      ``
      修改gitlab下host值为实际的域名或服务器IP地址即可，保存退出<br/>
      
-     注意**使用docker重启容器无效,需要在容器中重启**<br/>[如何进入docker容器内](./docker.md)
+     * 500错误:重启**使用docker重启容器无效,需要在容器中重启**[如何进入docker容器内](./docker.md)
      ``
      gitlab-ctl restart<br/>
      ``
-     1.  push权限问题
+      *  push权限问题
       master 默认为proceted branch,权限级别为master,需要在Settings中的Repository中修改权限级别
