@@ -35,7 +35,8 @@ sudo docker run --detach \
       * vim gitlab.yml  
      ``
      修改gitlab下host值为实际的域名或服务器IP地址即可，保存退出<br/>
-     注意**使用docker重启容器无效,需要在容器中重启**<br/>
+     
+     注意**使用docker重启容器无效,需要在容器中重启**<br/>[如何进入docker容器内](./docker.md)
      ``
      gitlab-ctl restart<br/>
      ``
