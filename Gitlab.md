@@ -1,4 +1,6 @@
-# 使用docker安装gitlab
+## gitlab简介
+gitlab 是一个基于git实现的在线代码仓库软件,可以用gitlab自己搭建一个类似于github一样的系统，一般用于在企业、学校等内部网络搭建git私服
+## 使用docker安装gitlab
 [docker配置参考资料](http://imcjy.com/)
  * ## 拉取镜像
 ``
