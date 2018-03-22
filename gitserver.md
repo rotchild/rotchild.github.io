@@ -1,12 +1,12 @@
 # 搭建git服务器的步骤
 
 ## git服务器环境
-Ubutu 16.04 LTS
+Ubuntu 16.04 LTS
 
 ## 搭建步骤
 * 安装git,设置仓库目录和访问权限<br/>
 ``
-  * sudo apt-get install git git-clore --安装git服务器
+  * sudo apt-get install git git-core --安装git服务器
   * sudo mkdir/home/gitadmin/repositories --创建git仓库目录
   * sudo chown gitadmin:gitadmin/home/gitadmin/respositories --设定所有者
   * sudo chmod 755 /home/gitadmin/repositories --设置仓库的访问权限
