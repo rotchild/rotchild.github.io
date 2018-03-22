@@ -29,14 +29,14 @@ sudo docker run --detach \
 
 ## 注意事项
 1. 项目的ip地址修改：<br/>
-     进入到gitlab容器之后[如何进入docker容器内](./docker.md)<br/>
+     进入到gitlab容器之后  [如何进入docker容器内](./docker.md)<br/>
      ``
       * cd /opt/gitlab/embedded/service/gitlab-rails/config
       * vim gitlab.yml  
      ``
      修改gitlab下host值为实际的域名或服务器IP地址即可，保存退出<br/>
      
-1.  500错误:重启**使用docker重启容器无效,需要在容器中重启**
+1.  500错误:重启解决**使用docker重启容器无效,需要在容器中重启**
      ``
      gitlab-ctl restart<br/>
      ``
