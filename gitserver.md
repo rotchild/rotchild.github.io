@@ -11,6 +11,13 @@ Ubutu 16.04 LTS
   * sudo chown gitadmin:gitadmin/home/gitadmin/respositories --设定所有者
   * sudo chmod 755 /home/gitadmin/repositories --设置仓库的访问权限
 ``
+* 初始化Git仓库<br/>
+``
+git init --bare gittest.git
+``
+--bare 初始化为裸仓库[详情点这里](./gitstudy)<br/>
+----------------------------------------------------------------
+## 免账号密码登录
 * 配置ssh服务<br/>
 ``
 sudo apt-get install openssh-server
